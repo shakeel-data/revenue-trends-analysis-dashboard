@@ -8,7 +8,7 @@ This interactive Revenue Trends Dashboard showcases a comprehensive analysis of 
 ## 📁 Data resources used
 - Kaggle 
   - <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Sales.csv">csv</a>
-  - <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Hexmap.xlsx">map</a>
+  - <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Hexmap.xlsx">Location</a>
 
 - SQL
   - <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Sales.sql">Queries</a>
