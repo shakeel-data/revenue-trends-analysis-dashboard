@@ -1,4 +1,4 @@
-# 📈 Market Trends & Sales Insight | • SQL • Tableau 
+# 📈 Market Trends & Sales Insight | SQL + Tableau 
 
 Market trends and sales insights play a key role in uncovering actionable patterns within business data. By analyzing category performance, regional demand, and growth trends over time, organizations can make smarter decisions, optimize strategies, and drive sustainable revenue through predictive and data-driven planning.
 
