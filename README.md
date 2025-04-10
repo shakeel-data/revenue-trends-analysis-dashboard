@@ -3,7 +3,7 @@
 Market trends and sales insights play a key role in uncovering actionable patterns within business data. By analyzing category performance, regional demand, and growth trends over time, organizations can make smarter decisions, optimize strategies, and drive sustainable revenue through predictive and data-driven planning.
 
 ## 📘 Project Overview
-This interactive Revenue Trends Dashboard showcases a comprehensive analysis of sales, profit, and quantity trends across product categories and U.S. states using data-driven insights. Built using Tableau, this project demonstrates the complete data analytics lifecycle — from data sourcing and SQL-based transformation to advanced data visualization and storytelling.
+This interactive Revenue Trends Dashboard showcases a comprehensive analysis of sales, profit, and quantity trends across product categories and U.S. states using data-driven insights. Built using Tableau, this project demonstrates the complete data analytics lifecycle-from data sourcing and SQL-based transformation to advanced data visualization and storytelling.
 
 ## 📁 Data resources used
 - Kaggle 
@@ -24,10 +24,8 @@ This interactive Revenue Trends Dashboard showcases a comprehensive analysis of 
 - Developed a comprehensive **Market Trends & Sales Insight dashboard** to uncover key business insights and support **strategic decision-making**.
 - Utilized **Microsoft SQL Server for advanced data cleaning, exploration, and transformation** of raw sales data sourced from Kaggle.
 - Executed complex SQL queries to calculate essential KPIs such as **total sales, profit margins, quantity sold, and year-over-year growth**.
-- Exported refined datasets to CSV format and integrated them into **Tableau for interactive data visualization**.
 - Designed and deployed an interactive Tableau dashboard with **dynamic filters and drill-down capabilities, enabling stakeholders to explore category performance, regional sales, and time-series trends**.
-- Provided clear visual insights into **high-performing product segments, underperforming regions, and monthly sales fluctuations**.
-- Demonstrated full-cycle data analytics skills—from raw data ingestion and SQL-based transformation to **business intelligence reporting and data storytelling**.
+- Demonstrated full-cycle data analytics skills-from raw data ingestion and SQL-based transformation to **business intelligence reporting and data storytelling**.
 
 
 ## 📈 Key Features
