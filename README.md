@@ -39,14 +39,14 @@ This interactive Revenue Trends Dashboard showcases a comprehensive analysis of 
 
 
 ## 🔧 Project Workflow
-### 1. 📥 Data Collection & Import
+### 1.  Data Collection & Import
 Sourced a publicly available sales dataset from Kaggle, reflecting typical retail transactions. The dataset was imported into Microsoft SQL Server, setting the foundation for structured querying and analysis.
 
-### 2. 🧹 Data Cleaning & Transformation
-Using SQL, the raw data was cleaned by handling missing values, correcting inconsistent entries, formatting dates, and optimizing column structures. This ensured that the data was reliable, consistent, and ready for analysis.
+### 2.  ETL Process in SQL Server
+Created a **database and imported CSV files** into SQL Server using the Import Wizard. Using SQL, the raw data was cleaned by handling missing values, correcting inconsistent entries, formatting dates, and optimizing column structures. This ensured that the data was reliable, consistent, and ready for analysis.
 
 ```sql
-                                                       ---🟢 Exploration Queries---
+                                                  ---🟢 Exploration Queries---
 -- Basic Record Count
 
 SELECT COUNT(*) AS Total_Records FROM Sales;
@@ -110,7 +110,7 @@ OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY;
 Performed in-depth data exploration using a series of SQL queries to uncover key patterns, trends, and outliers. Advanced queries were used to segment data by category, region, and time to better understand business performance from multiple perspectives.
 
 ```sql
-                                               --- 🔴 Exploratory queries ---
+                                             --- 🔴 Exploratory queries ---
 
 -- Sales, Quantity, and Profit by Category
 
@@ -167,6 +167,34 @@ ORDER BY Avg_Profit_Margin DESC;
 
 ![image](https://github.com/user-attachments/assets/c713a9f5-2fe3-45b5-b41d-3934a36b029e)
 
+
+### 4. Data Export
+Once analysis was completed, the cleaned and structured dataset was exported to CSV format for seamless integration with Tableau, maintaining data integrity during the transfer.
+
+### 5. Data Visualization with Tableau
+- The processed data was visualized using Tableau, resulting in an interactive dashboard that provides clear insights into total revenue, profit, quantity sold, and year-over-year growth. 
+- Built a dynamic Revenue Trends Dashboard using Tableau Desktop.
+- Incorporated key performance indicators (KPIs) including:
+  - Total Sales
+  - Total Profit
+  - Total Quantity
+- Integrated YoY comparisons (2022 vs 2021), monthly trends, and min/max month highlights.
+- Added interactive filters for Category, Region, Ship Mode, and Year.
+- **Designed comparative visualizations**:
+  - **Sales & Profit by Category** : Bar and bullet charts highlighting profit/loss.
+  - **Geographic Distribution by State** : Bubble map showing sales and profit with size and color gradients.
+
+## 💼 Insight Generation & Business Relevance
+- The final dashboard enables stakeholders to make informed, data-driven decisions by highlighting key business metrics. 
+- It uncovers top-performing regions, high-revenue categories, seasonal trends, and areas of underperformance. 
+- These insights support strategic planning, inventory optimization, and targeted marketing initiatives.
+
+
+- ## 🛠 Tools & Technologies
+- **SQL Server** (Data cleaning, transformation, and analysis)
+- **Tableau public** (Interactive dashboards and data visualization)
+- **Excel / CSV** (Designed, developed, and hosted dynamic BI dashboards)
+- **Kaggle** (Source of raw sales dataset)
 
 
 
