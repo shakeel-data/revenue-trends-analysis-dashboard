@@ -180,7 +180,10 @@ Once analysis was completed, the cleaned and structured dataset was exported to 
 - Added interactive filters for Category, Region, Ship Mode, and Year.
 - **Designed comparative visualizations**:
   - **Sales & Profit by Category** : Bar and bullet charts highlighting profit/loss.
-  - **Geographic Distribution by State** : Bubble map showing sales and profit with size and color gradients.
+- Geographical Visualization with Hex Maps :
+    - Used **hex maps** to represent sales and profit by state in a clean, compact layout.
+    - Bubble map showing sales and profit with size and color gradients.
+    - This allows for clearer regional patterns compared to traditional choropleth maps.
 
 ## 💼 Business Insights
 - The final dashboard enables stakeholders to make informed, data-driven decisions by highlighting key business metrics. 
