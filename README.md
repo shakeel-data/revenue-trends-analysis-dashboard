@@ -46,7 +46,7 @@ Sourced a publicly available sales dataset from Kaggle, reflecting typical retai
 Using SQL, the raw data was cleaned by handling missing values, correcting inconsistent entries, formatting dates, and optimizing column structures. This ensured that the data was reliable, consistent, and ready for analysis.
 
 ```sql
-                                                                   ---🟢 Exploration Queries---
+                                                        ---🟢 Exploration Queries---
 -- Basic Record Count
 
 SELECT COUNT(*) AS Total_Records FROM Sales;
@@ -60,8 +60,9 @@ SELECT
      SUM(CASE WHEN [Sales] IS NULL THEN 1 ELSE 0 END) AS Null_Sales,
      SUM(CASE WHEN [Order_Id] IS NULL THEN 1 ELSE 0 END) AS Null_Order_ID
 FROM Sales;
+```
 
-
+```sql
 -- Total Sales
 
 SELECT SUM(Sales) AS Total_Sales FROM Sales;
@@ -73,7 +74,7 @@ SELECT SUM(Sales) AS Total_Sales FROM Sales;
 
 
 ```sql
-                                                                ---🟡 Analysis Queries ---
+                                                     ---🟡 Analysis Queries ---
 -- Regional Sales Distribution
 
 SELECT [Region], SUM(Sales) AS Region_Sales
@@ -92,7 +93,9 @@ FROM Sales
 GROUP BY FORMAT([Order_Date], 'yyyy-MM')
 ORDER BY Month;
 
+```
 
+```sql
 -- Top 10 Best-Selling Products
 
 SELECT [Product_Name], SUM([Quantity]) AS Units_Sold
@@ -107,8 +110,7 @@ OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY;
 Performed in-depth data exploration using a series of SQL queries to uncover key patterns, trends, and outliers. Advanced queries were used to segment data by category, region, and time to better understand business performance from multiple perspectives.
 
 ```sql
-
-                                                          --- 🔴 Exploratory queries ---
+                                              --- 🔴 Exploratory queries ---
 
 -- Sales, Quantity, and Profit by Category
 
@@ -132,7 +134,9 @@ SELECT TOP 10 [Customer_Name], SUM(Sales) AS Total_Sales
 FROM Sales
 GROUP BY [Customer_Name]
 ORDER BY Total_Sales DESC;
+```
 
+```sql
 
 -- Yearly Performance Overview
 
