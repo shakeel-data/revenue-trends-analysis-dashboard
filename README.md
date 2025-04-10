@@ -46,12 +46,12 @@ Sourced a publicly available sales dataset from Kaggle, reflecting typical retai
 Using SQL, the raw data was cleaned by handling missing values, correcting inconsistent entries, formatting dates, and optimizing column structures. This ensured that the data was reliable, consistent, and ready for analysis.
 
 ```sql
-                                                        ---🟢 Exploration Queries---
+                                                       ---🟢 Exploration Queries---
 -- Basic Record Count
 
 SELECT COUNT(*) AS Total_Records FROM Sales;
 ```
-![image](https://github.com/user-attachments/assets/58a9e3f4-b8eb-48cd-bffd-96d4446d2fcf)
+![image](https://github.com/user-attachments/assets/9dc6d1ba-360f-4573-85a3-c3d54ef143a7)
 
 ```sql
 -- Check for Null Values in Key Columns
@@ -69,7 +69,7 @@ SELECT SUM(Sales) AS Total_Sales FROM Sales;
 
 ```
 
-![image](https://github.com/user-attachments/assets/81244bb9-1a13-4383-956f-ee7f83d82b9d)
+![image](https://github.com/user-attachments/assets/4ba97531-cf18-4760-b8fa-55e18a615224)
 
 
 
@@ -83,7 +83,7 @@ GROUP BY [Region]
 ORDER BY Region_Sales DESC;
 
 ```
-![image](https://github.com/user-attachments/assets/4dbcc3d8-b361-440e-a4d1-c4bb0e297d3b)
+![image](https://github.com/user-attachments/assets/34d301e6-bfa2-4cc4-af5b-266796aa64e4)
 
 ```sql
 -- Monthly Sales Trend
@@ -110,7 +110,7 @@ OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY;
 Performed in-depth data exploration using a series of SQL queries to uncover key patterns, trends, and outliers. Advanced queries were used to segment data by category, region, and time to better understand business performance from multiple perspectives.
 
 ```sql
-                                              --- 🔴 Exploratory queries ---
+                                               --- 🔴 Exploratory queries ---
 
 -- Sales, Quantity, and Profit by Category
 
