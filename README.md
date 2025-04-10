@@ -178,8 +178,7 @@ Once analysis was completed, the cleaned and structured dataset was exported to 
   - Total Quantity
 - Integrated YoY comparisons (2022 vs 2021), monthly trends, and min/max month highlights.
 - Added interactive filters for Category, Region, Ship Mode, and Year.
-- **Designed comparative visualizations**:
-  - **Sales & Profit by Category** : Bar and bullet charts highlighting profit/loss.
+- **Designed comparative visualizations**- **Sales & Profit by Category** : Bar and bullet charts highlighting profit/loss.
 - Geographical Visualization with Hex Maps :
     - Used **hex maps** to represent sales and profit by state in a clean, compact layout.
     - Bubble map showing sales and profit with size and color gradients.
@@ -201,42 +200,6 @@ Once analysis was completed, the cleaned and structured dataset was exported to 
 This project demonstrates the power of combining SQL and Tableau to turn raw data into valuable business intelligence. From sourcing and preparing data in SQL Server to designing a visually compelling dashboard in Tableau Public, each step was carefully crafted to highlight key sales trends, regional performance, and product-level insights.
 
 The end result is a fully interactive dashboard that not only visualizes sales and profit metrics but also empowers stakeholders to explore the "why" behind the numbers. This project showcases practical skills in data wrangling, analysis, and visualization — and reflects a real-world approach to solving business problems through data.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
