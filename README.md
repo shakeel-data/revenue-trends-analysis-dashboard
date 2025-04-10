@@ -41,7 +41,9 @@ This interactive Revenue Trends Dashboard showcases a comprehensive analysis of 
 Sourced a publicly available sales dataset from Kaggle, reflecting typical retail transactions. The dataset was imported into Microsoft SQL Server, setting the foundation for structured querying and analysis.
 
 ### 2.  ETL Process in SQL Server
-Created a **database and imported CSV files** into SQL Server using the Import Wizard. Using SQL, the raw data was cleaned by handling missing values, correcting inconsistent entries, formatting dates, and optimizing column structures. This ensured that the data was reliable, consistent, and ready for analysis.
+- Created a **database and imported CSV files** into SQL Server using the Import Wizard. 
+- Using SQL, the raw data was cleaned by handling missing values, correcting inconsistent entries, formatting dates, and optimizing column structures. 
+- This ensured that the data was reliable, consistent, and ready for analysis.
 
 ```sql
                                                   ---🟢 Exploration Queries---
@@ -169,7 +171,7 @@ ORDER BY Avg_Profit_Margin DESC;
 ### 4. Data Export
 Once analysis was completed, the cleaned and structured dataset was exported to CSV format for seamless integration with Tableau, maintaining data integrity during the transfer.
 
-### 5. Data Visualization with Tableau
+### 5. Data Visualization using Tableau
 - The processed data was visualized using Tableau, resulting in an interactive dashboard that provides clear insights into total revenue, profit, quantity sold, and year-over-year growth. 
 - Built a dynamic Revenue Trends Dashboard using Tableau Desktop.
 - Incorporated key performance indicators (KPIs) including:
@@ -182,7 +184,7 @@ Once analysis was completed, the cleaned and structured dataset was exported to 
   - **Sales & Profit by Category** : Bar and bullet charts highlighting profit/loss.
   - **Geographic Distribution by State** : Bubble map showing sales and profit with size and color gradients.
 
-## 💼 Insight Generation & Business Relevance
+## 💼 Business Insights
 - The final dashboard enables stakeholders to make informed, data-driven decisions by highlighting key business metrics. 
 - It uncovers top-performing regions, high-revenue categories, seasonal trends, and areas of underperformance. 
 - These insights support strategic planning, inventory optimization, and targeted marketing initiatives.
