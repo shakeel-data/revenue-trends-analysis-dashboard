@@ -46,7 +46,7 @@ Sourced a publicly available sales dataset from Kaggle, reflecting typical retai
 Using SQL, the raw data was cleaned by handling missing values, correcting inconsistent entries, formatting dates, and optimizing column structures. This ensured that the data was reliable, consistent, and ready for analysis.
 
 ```sql
-                                                              --Exploration Queries--
+                                                                   ---🟢 Exploration Queries---
 -- Basic Record Count
 
 SELECT COUNT(*) AS Total_Records FROM Sales;
@@ -69,6 +69,103 @@ SELECT SUM(Sales) AS Total_Sales FROM Sales;
 ```
 
 ![image](https://github.com/user-attachments/assets/81244bb9-1a13-4383-956f-ee7f83d82b9d)
+
+
+
+```sql
+                                                                ---🟡 Analysis Queries ---
+-- Regional Sales Distribution
+
+SELECT [Region], SUM(Sales) AS Region_Sales
+FROM Sales
+GROUP BY [Region]
+ORDER BY Region_Sales DESC;
+
+```
+![image](https://github.com/user-attachments/assets/4dbcc3d8-b361-440e-a4d1-c4bb0e297d3b)
+
+```sql
+-- Monthly Sales Trend
+
+SELECT FORMAT([Order_Date], 'yyyy-MM') AS Month, SUM(Sales) AS Monthly_Sales
+FROM Sales
+GROUP BY FORMAT([Order_Date], 'yyyy-MM')
+ORDER BY Month;
+
+
+-- Top 10 Best-Selling Products
+
+SELECT [Product_Name], SUM([Quantity]) AS Units_Sold
+FROM Sales
+GROUP BY [Product_Name]
+ORDER BY Units_Sold DESC
+OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY;
+```
+![image](https://github.com/user-attachments/assets/819fa2f5-172c-4dc5-ae62-dace5726c49e)
+
+### 3. 🔍 Exploratory Data Analysis (EDA)
+Performed in-depth data exploration using a series of SQL queries to uncover key patterns, trends, and outliers. Advanced queries were used to segment data by category, region, and time to better understand business performance from multiple perspectives.
+
+```sql
+
+                                                          --- 🔴 Exploratory queries ---
+
+-- Sales, Quantity, and Profit by Category
+
+SELECT 
+  [Category],
+  SUM(Sales) AS Total_Sales,
+  SUM([Quantity]) AS Total_Quantity,
+  SUM([Profit]) AS Total_Profit
+FROM Sales
+GROUP BY [Category]
+ORDER BY Total_Sales DESC;
+
+```
+![image](https://github.com/user-attachments/assets/2585dd2f-7d77-4f22-82b8-36e66fcc4d6f)
+
+```sql
+
+-- Identify Top Performing Customers
+
+SELECT TOP 10 [Customer_Name], SUM(Sales) AS Total_Sales
+FROM Sales
+GROUP BY [Customer_Name]
+ORDER BY Total_Sales DESC;
+
+
+-- Yearly Performance Overview
+
+SELECT 
+  YEAR([Order_Date]) AS Year,
+  COUNT(DISTINCT [Order_ID]) AS Orders,
+  SUM(Sales) AS Total_Sales,
+  SUM([Profit]) AS Total_Profit
+FROM Sales
+GROUP BY YEAR([Order_Date])
+ORDER BY Year;
+```
+![image](https://github.com/user-attachments/assets/81adb05c-e385-4ced-af11-f59f3a290722)
+
+```sql
+
+-- Profit Margin by Region and Segment
+
+SELECT 
+  [Region], 
+  [Segment], 
+  AVG([Profit]) AS Avg_Profit_Margin
+FROM Sales
+GROUP BY [Region], [Segment]
+ORDER BY Avg_Profit_Margin DESC;
+
+```
+
+![image](https://github.com/user-attachments/assets/c713a9f5-2fe3-45b5-b41d-3934a36b029e)
+
+
+
+
 
 
 
