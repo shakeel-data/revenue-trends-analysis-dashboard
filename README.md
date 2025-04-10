@@ -46,7 +46,7 @@ Sourced a publicly available sales dataset from Kaggle, reflecting typical retai
 - This ensured that the data was reliable, consistent, and ready for analysis.
 
 ```sql
-                                             ---🟢 Exploration Queries---
+                                         ---🟢 Exploration Queries---
 -- Basic Record Count
 
 SELECT COUNT(*) AS Total_Records FROM Sales;
@@ -74,7 +74,7 @@ SELECT SUM(Sales) AS Total_Sales FROM Sales;
 
 
 ```sql
-                                                ---🟡 Analysis Queries ---
+                                           ---🟡 Analysis Queries ---
 -- Regional Sales Distribution
 
 SELECT [Region], SUM(Sales) AS Region_Sales
@@ -110,7 +110,7 @@ OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY;
 Performed in-depth data exploration using a series of SQL queries to uncover key patterns, trends, and outliers. Advanced queries were used to segment data by category, region, and time to better understand business performance from multiple perspectives.
 
 ```sql
-                                           --- 🔴 Exploratory queries ---
+                                      --- 🔴 Exploratory queries ---
 
 -- Sales, Quantity, and Profit by Category
 
