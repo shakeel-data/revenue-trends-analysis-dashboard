@@ -16,7 +16,7 @@ This interactive Revenue Trends Dashboard showcases a comprehensive analysis of 
 
 
 # 🪟 Dashboard
-![image](https://github.com/user-attachments/assets/8637e6a4-9184-4e40-a717-9a24bd451e12)
+![image](https://github.com/user-attachments/assets/58ba3510-0e89-4003-ba6c-9b315e252e13)
 
 ## 🎯 Project Goals
 - Developed a comprehensive **Market Trends & Sales Insight dashboard** to uncover key business insights and support **strategic decision-making**.
