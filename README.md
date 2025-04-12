@@ -1,4 +1,4 @@
-# 📈 Market Trends & Sales Insight | SQL + Tableau 
+# 📈 Market Trends & Sales Insight | Tableau + SQL 
 
 Market trends and sales insights play a key role in uncovering actionable patterns within business data. By analyzing category performance, regional demand, and growth trends over time, organizations can make smarter decisions, optimize strategies, and drive sustainable revenue through predictive and data-driven planning.
 
@@ -185,7 +185,7 @@ Once analysis was completed, the cleaned and structured dataset was exported to 
     - This allows for clearer regional patterns compared to traditional choropleth maps.
 
 ## 💼 Business Insights
-- The final dashboard enables stakeholders to make informed, data-driven decisions by highlighting key business metrics. 
+- This final dashboard enables stakeholders to make informed, data-driven decisions by highlighting key business metrics. 
 - It uncovers top-performing regions, high-revenue categories, seasonal trends, and areas of underperformance. 
 - These insights support strategic planning, inventory optimization, and targeted marketing initiatives.
 
