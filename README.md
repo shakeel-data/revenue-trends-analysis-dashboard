@@ -170,11 +170,10 @@ Once analysis was completed, the cleaned and structured dataset was exported to 
 
 
 ## 🛠 Technologies and Tools
-- **Microsoft SQL Server** (Data cleaning, transformation, and analysis)
-- **Tableau Public** (Interactive dashboard and data visualization)
-- **Kaggle** (Source of raw sales dataset)
+- **Kaggle** – Source of raw sales dataset
+- **Microsoft SQL Server** – Database management and ETL operations
+- **Tableau Public** – Data transformation and interactive visualization
 
 ## ✅ Conclusion
-This project demonstrates the power of combining SQL and Tableau to turn raw data into valuable business intelligence. From sourcing and preparing data in SQL Server to designing a visually compelling dashboard in Tableau Public, each step was carefully crafted to highlight key sales trends, regional performance, and product-level insights.
-
-The end result is a fully interactive dashboard that not only visualizes sales and profit metrics but also empowers stakeholders to explore the "why" behind the numbers. This project showcases practical skills in data wrangling, analysis, and visualization and reflects a real-world approach to solving business problems through data.
+This project demonstrates the power of combining SQL and Tableau to turn raw data into valuable business intelligence. From sourcing and preparing data in SQL Server to designing a visually compelling dashboard in Tableau Public, each step was carefully crafted to **highlight key sales trends, regional performance, and product-level insights.**
+This project showcases practical skills in **data wrangling, analysis, and visualization** and reflects a real-world approach to solving business problems through data.
