@@ -1,5 +1,5 @@
 # 📈 Market Sales and Trends Project | Tableau + SQL server
-![image](https://github.com/user-attachments/assets/79d3baef-c180-4f00-ac1a-f030baa3d0b7)
+![image](https://github.com/user-attachments/assets/8e63550a-e246-4646-a3e4-aee291188060)
 
 
 Market trends and sales insights play a key role in uncovering actionable patterns within business data. By analyzing category performance, regional demand, and growth trends over time, organizations can make smarter decisions, optimize strategies, and drive sustainable revenue through predictive and data-driven planning.
