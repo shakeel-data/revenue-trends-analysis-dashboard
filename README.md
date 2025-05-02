@@ -35,7 +35,6 @@ Sourced a publicly available sales dataset from Kaggle, reflecting typical retai
 - This ensured that the data was reliable, consistent, and ready for analysis.
 
 ```sql
-                                         ---🟢 Exploration Queries---
 -- Basic Record Count
 
 SELECT COUNT(*) AS Total_Records FROM Sales;
@@ -55,7 +54,6 @@ FROM Sales;
 -- Total Sales
 
 SELECT SUM(Sales) AS Total_Sales FROM Sales;
-
 ```
 
 ![image](https://github.com/user-attachments/assets/4ba97531-cf18-4760-b8fa-55e18a615224)
@@ -63,14 +61,12 @@ SELECT SUM(Sales) AS Total_Sales FROM Sales;
 
 
 ```sql
-                                           ---🟡 Analysis Queries ---
 -- Regional Sales Distribution
 
 SELECT [Region], SUM(Sales) AS Region_Sales
 FROM Sales
 GROUP BY [Region]
 ORDER BY Region_Sales DESC;
-
 ```
 ![image](https://github.com/user-attachments/assets/34d301e6-bfa2-4cc4-af5b-266796aa64e4)
 
@@ -81,7 +77,6 @@ SELECT FORMAT([Order_Date], 'yyyy-MM') AS Month, SUM(Sales) AS Monthly_Sales
 FROM Sales
 GROUP BY FORMAT([Order_Date], 'yyyy-MM')
 ORDER BY Month;
-
 ```
 
 ```sql
@@ -99,8 +94,6 @@ OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY;
 Performed in-depth data exploration using a series of SQL queries to uncover key patterns, trends, and outliers. Advanced queries were used to segment data by category, region, and time to better understand business performance from multiple perspectives.
 
 ```sql
-                                      --- 🔴 Exploratory queries ---
-
 -- Sales, Quantity, and Profit by Category
 
 SELECT 
@@ -111,12 +104,10 @@ SELECT
 FROM Sales
 GROUP BY [Category]
 ORDER BY Total_Sales DESC;
-
 ```
 ![image](https://github.com/user-attachments/assets/2585dd2f-7d77-4f22-82b8-36e66fcc4d6f)
 
 ```sql
-
 -- Identify Top Performing Customers
 
 SELECT TOP 10 [Customer_Name], SUM(Sales) AS Total_Sales
@@ -126,7 +117,6 @@ ORDER BY Total_Sales DESC;
 ```
 
 ```sql
-
 -- Yearly Performance Overview
 
 SELECT 
@@ -141,7 +131,6 @@ ORDER BY Year;
 ![image](https://github.com/user-attachments/assets/81adb05c-e385-4ced-af11-f59f3a290722)
 
 ```sql
-
 -- Profit Margin by Region and Segment
 
 SELECT 
@@ -151,7 +140,6 @@ SELECT
 FROM Sales
 GROUP BY [Region], [Segment]
 ORDER BY Avg_Profit_Margin DESC;
-
 ```
 
 ![image](https://github.com/user-attachments/assets/c713a9f5-2fe3-45b5-b41d-3934a36b029e)
@@ -190,6 +178,3 @@ Once analysis was completed, the cleaned and structured dataset was exported to 
 This project demonstrates the power of combining SQL and Tableau to turn raw data into valuable business intelligence. From sourcing and preparing data in SQL Server to designing a visually compelling dashboard in Tableau Public, each step was carefully crafted to highlight key sales trends, regional performance, and product-level insights.
 
 The end result is a fully interactive dashboard that not only visualizes sales and profit metrics but also empowers stakeholders to explore the "why" behind the numbers. This project showcases practical skills in data wrangling, analysis, and visualization and reflects a real-world approach to solving business problems through data.
-
-
-
