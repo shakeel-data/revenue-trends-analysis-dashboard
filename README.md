@@ -1,11 +1,13 @@
-# 📈 Market Trends & Sales Insight | Tableau + SQL 
+# 📈 Market Sales and Trends Project | Tableau + SQL server
+![image](https://github.com/user-attachments/assets/79d3baef-c180-4f00-ac1a-f030baa3d0b7)
+
 
 Market trends and sales insights play a key role in uncovering actionable patterns within business data. By analyzing category performance, regional demand, and growth trends over time, organizations can make smarter decisions, optimize strategies, and drive sustainable revenue through predictive and data-driven planning.
 
 ## 📘 Project Overview
 This interactive Revenue Trends Dashboard showcases a comprehensive analysis of sales, profit, and quantity trends across product categories and U.S. states using data-driven insights. Built using Tableau, this project demonstrates the complete data analytics lifecycle-from data sourcing and SQL-based transformation to advanced data visualization and storytelling.
 
-## 📁 Data resources used
+## 📁 Data Sources
 - Kaggle 
   - <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Sales.csv">csv</a>
   - <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Hexmap.xlsx">Location</a>
@@ -18,7 +20,7 @@ This interactive Revenue Trends Dashboard showcases a comprehensive analysis of 
 # 🪟 Dashboard
 ![image](https://github.com/user-attachments/assets/58ba3510-0e89-4003-ba6c-9b315e252e13)
 
-## 🎯 Project Goals
+## 🎯 Key Objectives
 - Developed a comprehensive **Market Trends & Sales Insight dashboard** to uncover key business insights and support **strategic decision-making**.
 - Utilized **Microsoft SQL Server for advanced data cleaning, exploration, and transformation** of raw sales data sourced from Kaggle.
 - Executed complex SQL queries to calculate essential KPIs such as **total sales, profit margins, quantity sold, and year-over-year growth**.
@@ -191,9 +193,8 @@ Once analysis was completed, the cleaned and structured dataset was exported to 
 
 
 ## 🛠 Tools & Technologies
-- **SQL Server** (Data cleaning, transformation, and analysis)
-- **Tableau public** (Interactive dashboards and data visualization)
-- **Excel / CSV** (Designed, developed, and hosted dynamic BI dashboards)
+- **Microsoft SQL Server** (Data cleaning, transformation, and analysis)
+- **Tableau Public** (Interactive dashboard and data visualization)
 - **Kaggle** (Source of raw sales dataset)
 
 ## ✅ Conclusion
