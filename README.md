@@ -7,6 +7,12 @@ Market trends and sales insights play a key role in uncovering actionable patter
 ## 📘 Project Overview
 This interactive Revenue Trends Dashboard showcases a comprehensive analysis of sales, profit, and quantity trends across product categories and U.S. states using data-driven insights. Built using Tableau, this project demonstrates the complete data analytics lifecycle-from data sourcing and SQL-based transformation to advanced data visualization and storytelling.
 
+## 🎯 Key Objectives
+- **End-to-End Pipeline** : Full-cycle project from raw data ingestion to dashboard deployment.
+- **SQL Mastery** : Leveraged T-SQL for data wrangling, KPI calculations, and creating export-ready datasets.
+- **Interactive Visualization** : Drill-down analysis using Tableau’s parameters and filters.
+- **Business Insights** : Uncovered high-performing product segments and top revenue-generating states, aiding in strategic decision-making.
+
 ## 📁 Data Sources
 - Kaggle 
   - <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Sales.csv">csv</a>
@@ -16,25 +22,8 @@ This interactive Revenue Trends Dashboard showcases a comprehensive analysis of 
 - SQL exported data
   - <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Sales.txt">csv</a>
 
-
 # 🪟 Dashboard
 ![image](https://github.com/user-attachments/assets/58ba3510-0e89-4003-ba6c-9b315e252e13)
-
-## 🎯 Key Objectives
-- Developed a comprehensive **Market Trends & Sales Insight dashboard** to uncover key business insights and support **strategic decision-making**.
-- Utilized **Microsoft SQL Server for advanced data cleaning, exploration, and transformation** of raw sales data sourced from Kaggle.
-- Executed complex SQL queries to calculate essential KPIs such as **total sales, profit margins, quantity sold, and year-over-year growth**.
-- Designed and deployed an interactive Tableau dashboard with **dynamic filters and drill-down capabilities, enabling stakeholders to explore category performance, regional sales, and time-series trends**.
-- Demonstrated full-cycle data analytics skills-from raw data ingestion and SQL-based transformation to **business intelligence reporting and data storytelling**.
-
-
-## 📈 Key Features
-- **End-to-End Pipeline** : Full-cycle project from raw data ingestion to dashboard deployment.
-- **SQL Mastery** : Leveraged T-SQL for data wrangling, KPI calculations, and creating export-ready datasets.
-- **Interactive Visualization** : Drill-down analysis using Tableau’s parameters and filters.
-- **Business Insights** : Uncovered high-performing product segments and top revenue-generating states, aiding in strategic decision-making.
-
-
 
 ## 🔧 Project Workflow
 ### 1.  Data Collection & Import
