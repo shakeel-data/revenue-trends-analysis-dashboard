@@ -172,16 +172,16 @@ Once analysis was completed, the cleaned and structured dataset was exported to 
 - **Designed comparative visualization of Sales & Profit by Category** : Bar and bullet charts highlighting profit/loss.
 - **Geographical Visualization with Hex Maps** :
     - Used **hex maps** to represent sales and profit by state in a clean, compact layout.
-    - Bubble map showing sales and profit with size and color gradients.
-    - This allows for clearer regional patterns compared to traditional choropleth maps.
+    - **Bubble map** showing sales and profit with size and **color gradients.**
+    - This allows for clearer regional patterns compared to traditional **choropleth maps.**
 
 ## 💼 Business Insights
-- This final dashboard enables stakeholders to make informed, data-driven decisions by highlighting key business metrics. 
-- It uncovers top-performing regions, high-revenue categories, seasonal trends, and areas of underperformance. 
-- These insights support strategic planning, inventory optimization, and targeted marketing initiatives.
+- This final dashboard enables stakeholders to make **informed, data-driven decisions** by highlighting key business metrics. 
+- It uncovers top-performing **regions, high-revenue categories, seasonal trends, and areas of underperformance.**
+- These insights support strategic **planning, inventory optimization**, and targeted marketing initiatives.
 
 
-## 🛠 Tools & Technologies
+## 🛠 Technologies and Tools
 - **Microsoft SQL Server** (Data cleaning, transformation, and analysis)
 - **Tableau Public** (Interactive dashboard and data visualization)
 - **Kaggle** (Source of raw sales dataset)
