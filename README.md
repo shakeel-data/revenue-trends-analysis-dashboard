@@ -1,4 +1,4 @@
-# 📈 Market Sales and Trends Project | Tableau + SQL server
+# 📈 Market Sales and Trends Project | Tableau + SQL Server
 ![image](https://github.com/user-attachments/assets/8e63550a-e246-4646-a3e4-aee291188060)
 
 
