@@ -15,12 +15,12 @@ This interactive Revenue Trends Dashboard showcases a comprehensive analysis of 
 
 ## 📁 Data Sources
 - Kaggle 
-  - <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Sales.csv">csv</a>
-  - <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Hexmap.xlsx">Location</a>
+<a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Sales.csv">csv</a>
+<a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Hexmap.xlsx">Location</a>
 - SQL
-  - <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Sales.sql">Queries</a>
+<a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Sales.sql">Queries</a>
 - SQL exported data
-  - <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Sales.txt">csv</a>
+<a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Sales.txt">csv</a>
 
 # 🪟 Dashboard
 ![image](https://github.com/user-attachments/assets/58ba3510-0e89-4003-ba6c-9b315e252e13)
