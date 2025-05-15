@@ -170,7 +170,7 @@ Once analysis was completed, the cleaned and structured dataset was exported to 
 
 
 ## 🛠 Technologies and Tools
-- **Kaggle** – Source of raw sales dataset
+- **Kaggle** – Data Source
 - **Microsoft SQL Server** – Database management and ETL operations
 - **Tableau Public** – Data transformation and interactive visualization
 
