@@ -41,17 +41,17 @@ SELECT COUNT(*) AS Total_Records FROM Sales;
 ```
 ![image](https://github.com/user-attachments/assets/9dc6d1ba-360f-4573-85a3-c3d54ef143a7)
 
-```sql
--- Check for Null Values in Key Columns
+**Check for Null Values in Key Columns**
 
+```sql
 SELECT 
      SUM(CASE WHEN [Sales] IS NULL THEN 1 ELSE 0 END) AS Null_Sales,
      SUM(CASE WHEN [Order_Id] IS NULL THEN 1 ELSE 0 END) AS Null_Order_ID
 FROM Sales;
 ```
 
+**Total Sales**
 ```sql
--- Total Sales
 
 SELECT SUM(Sales) AS Total_Sales FROM Sales;
 ```
@@ -59,9 +59,8 @@ SELECT SUM(Sales) AS Total_Sales FROM Sales;
 ![image](https://github.com/user-attachments/assets/4ba97531-cf18-4760-b8fa-55e18a615224)
 
 
-
+**Regional Sales Distribution**
 ```sql
--- Regional Sales Distribution
 
 SELECT [Region], SUM(Sales) AS Region_Sales
 FROM Sales
