@@ -34,8 +34,8 @@ Sourced a publicly available sales dataset from Kaggle, reflecting typical retai
 - Using SQL, the raw data was cleaned by handling missing values, correcting inconsistent entries, formatting dates, and optimizing column structures. 
 - This ensured that the data was reliable, consistent, and ready for analysis.
 
+**Basic Record Count**
 ```sql
--- Basic Record Count
 
 SELECT COUNT(*) AS Total_Records FROM Sales;
 ```
