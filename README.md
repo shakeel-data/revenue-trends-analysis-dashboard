@@ -19,7 +19,7 @@ This interactive Revenue Trends Dashboard showcases a comprehensive analysis of 
   - <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Hexmap.xlsx">Location</a>
 - SQL
 <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Sales.sql">Queries</a>
-- SQL exported data
+- SQL exported
 <a href="https://github.com/Shakeel-Data/Revenue-Trends-Dashboard/blob/main/Sales.txt">csv</a>
 
 # 🪟 Dashboard
