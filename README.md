@@ -69,8 +69,8 @@ ORDER BY Region_Sales DESC;
 ```
 ![image](https://github.com/user-attachments/assets/34d301e6-bfa2-4cc4-af5b-266796aa64e4)
 
+**Monthly Sales Trend**
 ```sql
--- Monthly Sales Trend
 
 SELECT FORMAT([Order_Date], 'yyyy-MM') AS Month, SUM(Sales) AS Monthly_Sales
 FROM Sales
