@@ -10,8 +10,8 @@ This interactive Revenue Trends Dashboard showcases a comprehensive analysis of 
 ## 🎯 Key Objectives
 - **End-to-End Pipeline**: Full-cycle project from raw data ingestion to dashboard deployment.
 - **SQL Mastery**: Leveraged T-SQL for data wrangling, KPI calculations, and creating export-ready datasets.
-- **Interactive Visualization** : Drill-down analysis using Tableau’s parameters and filters.
-- **Business Insights** : Uncovered high-performing product segments and top revenue-generating states, aiding in strategic decision-making.
+- **Interactive Visualization**: Drill-down analysis using Tableau’s parameters and filters.
+- **Business Insights**: Uncovered high-performing product segments and top revenue-generating states, aiding in strategic decision-making.
 
 ## 📁 Data Sources
 - Kaggle 
