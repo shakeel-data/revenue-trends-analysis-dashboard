@@ -171,7 +171,7 @@ Once analysis was completed, the cleaned and structured dataset was exported to 
 ## 🛠 Technologies and Tools
 - **Kaggle** – Data Source
 - **Microsoft SQL Server** – Database management and ETL operations
-- **Tableau Public** – Data transformation and interactive visualization
+- **Tableau Public** – Data transformation and Interactive visualization
 
 ## ✅ Conclusion
 This project demonstrates the power of combining SQL and Tableau to turn raw data into valuable business intelligence. From sourcing and preparing data in SQL Server to designing a visually compelling dashboard in Tableau Public, each step was carefully crafted to **highlight key sales trends, regional performance, and product-level insights.**
