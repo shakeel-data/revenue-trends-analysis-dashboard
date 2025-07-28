@@ -142,7 +142,7 @@ ORDER BY Avg_Profit_Margin DESC;
 ![image](https://github.com/user-attachments/assets/c713a9f5-2fe3-45b5-b41d-3934a36b029e)
 
 
-### 4. Data Export
+### 4. 📤 Data Export
 Once analysis was completed, the cleaned and structured dataset was exported to CSV format for seamless integration with Tableau, maintaining data integrity during the transfer.
 
 ### 5. Data Visualization using Tableau
