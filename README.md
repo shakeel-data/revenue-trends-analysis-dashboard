@@ -155,7 +155,7 @@ Once analysis was completed, the cleaned and structured dataset was exported to 
 - Integrated YoY comparisons (2022 vs 2021), monthly trends, and min/max month highlights.
 - Added interactive filters for Category, Region, Ship Mode, and Year.
 - **Designed comparative visualization of Sales & Profit by Category** : Bar and bullet charts highlighting profit/loss.
-- **Geographical Visualization with Hex Maps** :
+- **Geographical Visualization with Hex Maps:**
     - Used **hex maps** to represent sales and profit by state in a clean, compact layout.
     - **Bubble map** showing sales and profit with size and **color gradients.**
     - This allows for clearer regional patterns compared to traditional **choropleth maps.**
